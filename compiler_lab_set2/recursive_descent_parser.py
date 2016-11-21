@@ -1,4 +1,4 @@
-#how to run python name_of_program
+#how to run: python name_of_program
 print "Given grammar is-"
 print "E -> TX"
 print "X -> +TX/_"

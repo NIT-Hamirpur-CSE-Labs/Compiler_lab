@@ -1,7 +1,8 @@
-#include<stdio.h>  
-#include<string.h>  
-int main()  
-{  
+#include<stdio.h> 
+#include<string.h>
+#include<stdlib.h>
+ int main()  
+ {  
        char gram[20],part1[20],part2[20],modifiedGram[20],newGram[20],tempGram[20];  
        int i,j=0,k=0,l=0,pos;  
        printf("Enter Production : A->");  
@@ -18,9 +19,9 @@ int main()
             {  
                  modifiedGram[k]=part1[i];  
                  k++;  
-                 pos=i+1;  
+               pos=i+1;  
             }  
-      }  
+       }  
        for(i=pos,j=0;part1[i]!='\0';i++,j++){  
             newGram[j]=part1[i];  
        }  

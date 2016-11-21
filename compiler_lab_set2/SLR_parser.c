@@ -29,11 +29,11 @@ scanf("%s",pro[i]);
 printf("Enter the no.of states:");
 scanf("%d",&st);
 printf("Enter the states:");
-scanf("%s",st1);
+scanf("%s",&st1);
 printf("Enter the no of terminals:");
 scanf("%d",&t);
 printf("Enter the terminals:");
-scanf("%s",ter);
+scanf("%s",&ter);
 for(i=0;i<st;i++)
 {
 for(j=0;j<t;j++)
